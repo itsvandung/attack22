@@ -17,7 +17,7 @@ except:
 from pystyle import Center, Colors, Colorate
 
 # Key cố định
-correct_key = "vandung_1005"
+correct_key = "vandung_2009"
 
 # Yêu cầu nhập key để chạy tool
 user_key = input("\033[1;97m enter password: ")

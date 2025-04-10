@@ -17,7 +17,7 @@ except:
 from pystyle import Center, Colors, Colorate
 
 # Key cố định
-correct_key = "vandung22"
+correct_key = "vandung_1005"
 
 # Yêu cầu nhập key để chạy tool
 user_key = input("\033[1;97mNhập Key để tiếp tục: ")
@@ -37,7 +37,7 @@ def banner():
 ██║  ██║██║   ██║██║╚██╗██║██║╚██╗██║  ╚██╔╝  
 ██████╔╝╚██████╔╝██║ ╚████║██║ ╚████║   ██║   
 ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═══╝   ╚═╝\n
-\033[1;97mSource Cộng Đồng: \033[1;32mDonny            \033[1;97mPhiên Bản: \033[1;32m4.0     
+\033[1;97mSource Public: \033[1;32mDonny            \033[1;97mPhiên Bản: \033[1;32m4.0     
 \033[97m════════════════════════════════════════════════  
 \033[1;97m[\033[1;91m❣\033[1;97m] Facebook\033[1;31m  : \033[1;97m \033[1;36mNguyễn Văn Dững(Donny)\033[1;31m \033[1;97m
 \033[1;97m[\033[1;91m❣\033[1;97m] Telegram\033[1;31m : \033[1;97m \033[1;32mhttps://t.me/xyzvandung\033[1;97m
